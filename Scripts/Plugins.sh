@@ -23,3 +23,12 @@ $CLONE --branch "dev" https://github.com/vernesong/OpenClash.git
 [[ $OWRT_URL == *"lede"* ]] && $CLONE --branch "main" https://github.com/fw876/helloworld.git
 #Home Proxy
 [[ $OWRT_URL == *"immortalwrt"* ]] && $CLONE --branch "mdev" https://github.com/muink/homeproxy.git
+
+#adguardhome
+git clone --depth=1 --single-branch https://github.com/xiaoxiao29/luci-app-adguardhome.git
+#ddns-go
+#git clone --depth=1 --single-branch https://github.com/sirpdboy/luci-app-ddns-go.git
+#ssr-plus
+#git clone --depth=1 --single-branch https://github.com/kenzok8/small.git
+#git clone --depth=1 --single-branch https://github.com/kenzok8/small-package.git
+#git clone --depth=1 --single-branch https://github.com/fw876/helloworld.git
