@@ -3,9 +3,6 @@
 #精简git命令
 CLONE="git clone --depth=1 --single-branch"
 
-#Tiny Filemanager
-$CLONE https://github.com/muink/luci-app-tinyfilemanager.git
-
 #Design Theme
 $CLONE --branch $(echo $OWRT_URL | grep -iq "lede" && echo "main" || echo "js") https://github.com/gngpp/luci-theme-design.git
 $CLONE https://github.com/gngpp/luci-app-design-config.git
@@ -30,5 +27,6 @@ git clone --depth=1 --single-branch https://github.com/xiaoxiao29/luci-app-adgua
 #git clone --depth=1 --single-branch https://github.com/sirpdboy/luci-app-ddns-go.git
 #ssr-plus
 #git clone --depth=1 --single-branch https://github.com/kenzok8/small.git
+
 #git clone --depth=1 --single-branch https://github.com/kenzok8/small-package.git
 #git clone --depth=1 --single-branch https://github.com/fw876/helloworld.git
