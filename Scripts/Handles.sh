@@ -1,11 +1,5 @@
 #!/bin/bash
 
-#修改Tiny Filemanager汉化
-if [ -d *"tinyfilemanager"* ]; then
-	sed -i '/msgid "Tiny File Manager"/{n; s/msgstr.*/msgstr "文件管理器"/}' ./luci-app-tinyfilemanager/po/zh_Hans/tinyfilemanager.po
-	sed -i 's/启用用户验证/用户验证/g;s/家目录/初始目录/g;s/Favicon 路径/收藏夹图标路径/g' ./luci-app-tinyfilemanager/po/zh_Hans/tinyfilemanager.po
-fi
-
 #预置HomeProxy列表
 if [ -d *"homeproxy"* ]; then
 	git clone --depth=5 --single-branch --branch "master" https://github.com/1715173329/IPCIDR-CHINA.git ./ip
