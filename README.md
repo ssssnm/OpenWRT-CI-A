@@ -7,6 +7,8 @@ https://github.com/coolsnowwolf/lede
 IMMORTALWRT源码：
 https://github.com/immortalwrt/immortalwrt
 
+VIKINGYFY脚本
+https://github.com/VIKINGYFY/OpenWRT-CI
 # 固件简要说明：
 
 固件每天早上4点自动编译。
