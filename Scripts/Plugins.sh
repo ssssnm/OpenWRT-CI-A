@@ -21,7 +21,7 @@ $CLONE https://github.com/xiaorouji/openwrt-passwall-packages.git
 $CLONE --branch "dev" https://github.com/vernesong/OpenClash.git
 
 #Hello World
-[[ $OWRT_URL == *"lede"* ]] && $CLONE --branch "main" https://github.com/fw876/helloworld.git
+#[[ $OWRT_URL == *"lede"* ]] && $CLONE --branch "main" https://github.com/fw876/helloworld.git
 
 #Home Proxy
 [[ $OWRT_URL == *"immortalwrt"* ]] && $CLONE --branch "mdev" https://github.com/muink/homeproxy.git
