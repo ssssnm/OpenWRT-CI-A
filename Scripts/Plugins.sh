@@ -33,7 +33,7 @@ git clone --depth=1 --single-branch https://github.com/xiaoxiao29/luci-app-adgua
 #git clone --depth=1 --single-branch https://github.com/sirpdboy/luci-app-ddns-go.git
 
 #ssr-plus
-#git clone --depth=1 --single-branch https://github.com/kenzok8/small.git
+git clone --depth=1 --single-branch https://github.com/kenzok8/small.git
 
 #git clone --depth=1 --single-branch https://github.com/kenzok8/small-package.git
 git clone --depth=1 --single-branch https://github.com/fw876/helloworld.git
