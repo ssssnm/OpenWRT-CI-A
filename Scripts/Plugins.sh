@@ -11,7 +11,7 @@ $CLONE --branch $(echo $OWRT_URL | grep -iq "lede" && echo "18.06" || echo "mast
 $CLONE --branch $(echo $OWRT_URL | grep -iq "lede" && echo "18.06" || echo "master") https://github.com/jerrykuku/luci-app-argon-config.git
 
 #Pass Wall
-$CLONE https://github.com/kenzok8/small-package.git
+#$CLONE https://github.com/kenzok8/small-package.git
 $CLONE https://github.com/kenzok8/small.git
 $CLONE https://github.com/xiaorouji/openwrt-passwall.git
 $CLONE https://github.com/xiaorouji/openwrt-passwall2.git
